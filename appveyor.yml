@@ -8,6 +8,7 @@ build:
   verbosity: minimal
 artifacts:
 - path: ThreatCheck\ThreatCheck\bin\Debug\*.exe
+- path: ThreatCheck\ThreatCheck\bin\Debug\*.dll
 only_commits:
   files:
     - ThreatCheck/

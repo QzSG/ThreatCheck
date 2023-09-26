@@ -7,7 +7,7 @@ build:
   parallel: true
   verbosity: minimal
 artifacts:
-- path: ThreatCheck\Release\x64\*.exe
+- path: ThreatCheck\bin\Debug\ThreatCheck.exe
 only_commits:
   files:
     - ThreatCheck/
